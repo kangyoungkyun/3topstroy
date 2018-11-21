@@ -26,6 +26,7 @@
 		520B7B3821A53B7E0051E14C /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 520B7B3721A53B7D0051E14C /* libxml2.tbd */; };
 		520B7B3A21A53B8A0051E14C /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 520B7B3921A53B8A0051E14C /* libxml2.2.tbd */; };
 		520B7B3C21A53C9E0051E14C /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 520B7B3B21A53C9D0051E14C /* libxml2.2.dylib */; };
+		520B7B3F21A5413F0051E14C /* TopStoriesParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 520B7B3E21A5413F0051E14C /* TopStoriesParser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,8 @@
 		520B7B3721A53B7D0051E14C /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		520B7B3921A53B8A0051E14C /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
 		520B7B3B21A53C9D0051E14C /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = ../../../../../usr/lib/libxml2.2.dylib; sourceTree = "<group>"; };
+		520B7B3D21A5413F0051E14C /* TopStoriesParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopStoriesParser.h; sourceTree = "<group>"; };
+		520B7B3E21A5413F0051E14C /* TopStoriesParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopStoriesParser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +161,8 @@
 		520B7B1921A5308B0051E14C /* parser */ = {
 			isa = PBXGroup;
 			children = (
+				520B7B3D21A5413F0051E14C /* TopStoriesParser.h */,
+				520B7B3E21A5413F0051E14C /* TopStoriesParser.m */,
 			);
 			path = parser;
 			sourceTree = "<group>";
@@ -260,6 +265,7 @@
 				520B7B2021A5312B0051E14C /* ShareTopStoriesTableViewController.m in Sources */,
 				520B7B2321A531490051E14C /* TopStoriesTableViewController.m in Sources */,
 				520B7B2821A536ED0051E14C /* BrowserViewController.m in Sources */,
+				520B7B3F21A5413F0051E14C /* TopStoriesParser.m in Sources */,
 				520B7B3121A539C50051E14C /* Model.m in Sources */,
 				520B7B2B21A539AB0051E14C /* Tweet.m in Sources */,
 				520B7A6D21A519D80051E14C /* main.m in Sources */,
