@@ -19,6 +19,13 @@
 		520B7B2321A531490051E14C /* TopStoriesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 520B7B2221A531490051E14C /* TopStoriesTableViewController.m */; };
 		520B7B2521A533C30051E14C /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 520B7B2421A533C30051E14C /* readme.txt */; };
 		520B7B2821A536ED0051E14C /* BrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 520B7B2721A536ED0051E14C /* BrowserViewController.m */; };
+		520B7B2B21A539AB0051E14C /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = 520B7B2A21A539AB0051E14C /* Tweet.m */; };
+		520B7B2E21A539B90051E14C /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 520B7B2D21A539B90051E14C /* Post.m */; };
+		520B7B3121A539C50051E14C /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 520B7B3021A539C50051E14C /* Model.m */; };
+		520B7B3421A53A900051E14C /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 520B7B3221A53A900051E14C /* Utils.m */; };
+		520B7B3821A53B7E0051E14C /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 520B7B3721A53B7D0051E14C /* libxml2.tbd */; };
+		520B7B3A21A53B8A0051E14C /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 520B7B3921A53B8A0051E14C /* libxml2.2.tbd */; };
+		520B7B3C21A53C9E0051E14C /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 520B7B3B21A53C9D0051E14C /* libxml2.2.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +47,17 @@
 		520B7B2421A533C30051E14C /* readme.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
 		520B7B2621A536ED0051E14C /* BrowserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrowserViewController.h; sourceTree = "<group>"; };
 		520B7B2721A536ED0051E14C /* BrowserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrowserViewController.m; sourceTree = "<group>"; };
+		520B7B2921A539AB0051E14C /* Tweet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tweet.h; sourceTree = "<group>"; };
+		520B7B2A21A539AB0051E14C /* Tweet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tweet.m; sourceTree = "<group>"; };
+		520B7B2C21A539B90051E14C /* Post.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		520B7B2D21A539B90051E14C /* Post.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		520B7B2F21A539C50051E14C /* Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		520B7B3021A539C50051E14C /* Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		520B7B3221A53A900051E14C /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		520B7B3321A53A900051E14C /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		520B7B3721A53B7D0051E14C /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		520B7B3921A53B8A0051E14C /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		520B7B3B21A53C9D0051E14C /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = ../../../../../usr/lib/libxml2.2.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +65,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				520B7B3C21A53C9E0051E14C /* libxml2.2.dylib in Frameworks */,
+				520B7B3A21A53B8A0051E14C /* libxml2.2.tbd in Frameworks */,
+				520B7B3821A53B7E0051E14C /* libxml2.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +79,7 @@
 			children = (
 				520B7A5C21A519D80051E14C /* 3topstroy */,
 				520B7A5B21A519D80051E14C /* Products */,
+				520B7B3621A53B7D0051E14C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,8 +97,8 @@
 				520B7A5D21A519D80051E14C /* AppDelegate.h */,
 				520B7A5E21A519D80051E14C /* AppDelegate.m */,
 				520B7B0E21A5304F0051E14C /* ui */,
-				520B7B1821A530840051E14C /* operation */,
 				520B7B0F21A530540051E14C /* model */,
+				520B7B1821A530840051E14C /* operation */,
 				520B7B1921A5308B0051E14C /* parser */,
 				520B7B0D21A530440051E14C /* image */,
 				520B7B1A21A530990051E14C /* misc */,
@@ -116,6 +138,12 @@
 		520B7B0F21A530540051E14C /* model */ = {
 			isa = PBXGroup;
 			children = (
+				520B7B2F21A539C50051E14C /* Model.h */,
+				520B7B3021A539C50051E14C /* Model.m */,
+				520B7B2C21A539B90051E14C /* Post.h */,
+				520B7B2D21A539B90051E14C /* Post.m */,
+				520B7B2921A539AB0051E14C /* Tweet.h */,
+				520B7B2A21A539AB0051E14C /* Tweet.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -137,8 +165,20 @@
 		520B7B1A21A530990051E14C /* misc */ = {
 			isa = PBXGroup;
 			children = (
+				520B7B3321A53A900051E14C /* Utils.h */,
+				520B7B3221A53A900051E14C /* Utils.m */,
 			);
 			path = misc;
+			sourceTree = "<group>";
+		};
+		520B7B3621A53B7D0051E14C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				520B7B3B21A53C9D0051E14C /* libxml2.2.dylib */,
+				520B7B3921A53B8A0051E14C /* libxml2.2.tbd */,
+				520B7B3721A53B7D0051E14C /* libxml2.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,11 +256,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				520B7B3421A53A900051E14C /* Utils.m in Sources */,
 				520B7B2021A5312B0051E14C /* ShareTopStoriesTableViewController.m in Sources */,
 				520B7B2321A531490051E14C /* TopStoriesTableViewController.m in Sources */,
 				520B7B2821A536ED0051E14C /* BrowserViewController.m in Sources */,
+				520B7B3121A539C50051E14C /* Model.m in Sources */,
+				520B7B2B21A539AB0051E14C /* Tweet.m in Sources */,
 				520B7A6D21A519D80051E14C /* main.m in Sources */,
 				520B7A5F21A519D80051E14C /* AppDelegate.m in Sources */,
+				520B7B2E21A539B90051E14C /* Post.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +392,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3HFR2QP3B2;
+				HEADER_SEARCH_PATHS = (
+					"${SDKROOT}/usr/include/libxml2.2",
+					/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/libxml2,
+				);
 				INFOPLIST_FILE = 3topstroy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.happy.-topstroy";
@@ -362,6 +410,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3HFR2QP3B2;
+				HEADER_SEARCH_PATHS = (
+					"${SDKROOT}/usr/include/libxml2.2",
+					/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/libxml2,
+				);
 				INFOPLIST_FILE = 3topstroy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.happy.-topstroy";
