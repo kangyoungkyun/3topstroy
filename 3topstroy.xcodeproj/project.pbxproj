@@ -17,6 +17,8 @@
 		520B7B1721A530660051E14C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 520B7B1321A530660051E14C /* Default.png */; };
 		520B7B2021A5312B0051E14C /* ShareTopStoriesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 520B7B1F21A5312B0051E14C /* ShareTopStoriesTableViewController.m */; };
 		520B7B2321A531490051E14C /* TopStoriesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 520B7B2221A531490051E14C /* TopStoriesTableViewController.m */; };
+		520B7B2521A533C30051E14C /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 520B7B2421A533C30051E14C /* readme.txt */; };
+		520B7B2821A536ED0051E14C /* BrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 520B7B2721A536ED0051E14C /* BrowserViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,9 @@
 		520B7B1F21A5312B0051E14C /* ShareTopStoriesTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareTopStoriesTableViewController.m; sourceTree = "<group>"; };
 		520B7B2121A531490051E14C /* TopStoriesTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopStoriesTableViewController.h; sourceTree = "<group>"; };
 		520B7B2221A531490051E14C /* TopStoriesTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopStoriesTableViewController.m; sourceTree = "<group>"; };
+		520B7B2421A533C30051E14C /* readme.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		520B7B2621A536ED0051E14C /* BrowserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrowserViewController.h; sourceTree = "<group>"; };
+		520B7B2721A536ED0051E14C /* BrowserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrowserViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +84,7 @@
 				520B7A6821A519D80051E14C /* LaunchScreen.storyboard */,
 				520B7A6B21A519D80051E14C /* Info.plist */,
 				520B7A6C21A519D80051E14C /* main.m */,
+				520B7B2421A533C30051E14C /* readme.txt */,
 			);
 			path = 3topstroy;
 			sourceTree = "<group>";
@@ -101,6 +107,8 @@
 				520B7B2221A531490051E14C /* TopStoriesTableViewController.m */,
 				520B7B1E21A5312B0051E14C /* ShareTopStoriesTableViewController.h */,
 				520B7B1F21A5312B0051E14C /* ShareTopStoriesTableViewController.m */,
+				520B7B2621A536ED0051E14C /* BrowserViewController.h */,
+				520B7B2721A536ED0051E14C /* BrowserViewController.m */,
 			);
 			path = ui;
 			sourceTree = "<group>";
@@ -195,6 +203,7 @@
 				520B7B1721A530660051E14C /* Default.png in Resources */,
 				520B7A6A21A519D80051E14C /* LaunchScreen.storyboard in Resources */,
 				520B7A6721A519D80051E14C /* Assets.xcassets in Resources */,
+				520B7B2521A533C30051E14C /* readme.txt in Resources */,
 				520B7B1421A530660051E14C /* icon.png in Resources */,
 				520B7B1621A530660051E14C /* icon@2x.png in Resources */,
 			);
@@ -209,6 +218,7 @@
 			files = (
 				520B7B2021A5312B0051E14C /* ShareTopStoriesTableViewController.m in Sources */,
 				520B7B2321A531490051E14C /* TopStoriesTableViewController.m in Sources */,
+				520B7B2821A536ED0051E14C /* BrowserViewController.m in Sources */,
 				520B7A6D21A519D80051E14C /* main.m in Sources */,
 				520B7A5F21A519D80051E14C /* AppDelegate.m in Sources */,
 			);
